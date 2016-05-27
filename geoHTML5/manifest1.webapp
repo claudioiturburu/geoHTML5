@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "name": "Localizacion",
+  "description": "Geolocalización y Ruta",
+  "launch_path": "/geoHTML5/geoGoogle.html",
+
+  "icons": {
+    "16":  "/geoHTML5/ico_16.png",
+    "48":  "/geoHTML5/ico_48.png",
+    "128": "/geoHTML5/ico_128.png"
+  },
+  "developer": {
+    "name": "Claudio Iturburu",
+    "url": "http://itur.neocities.org/geoHTML5/geoGoogle.html"
+  },
+  "permissions": {
+  	"geolocation":{
+  		"description": "Requerido para determinar punto inicial"
+  	}
+  }
+}
